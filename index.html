@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="いわき市の出張パソコン修理ならNook PC Works。即日対応・訪問修理・データ復旧・ウイルス除去まで対応。">
+
+<title>Nook PC Works</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">Nook PC Works</div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <nav id="nav">
+            <a href="#top">TOP</a>
+            <a href="#service">サービス</a>
+            <a href="#product">製品</a>
+            <a href="#price">料金表</a>
+            <a href="#area">対応地域</a>
+            <a href="#contact">お問い合わせ</a>
+        </nav>
+
+    </header>
+
+
+    <section id="top" class="hero">
+
+        <div class="hero-text">
+
+            <h1>いわき市の出張パソコン修理</h1>
+
+                <ul>
+                    <li>最短即日対応</li>
+                    <li>持ち込み不要！ご自宅まで訪問</li>
+                    <li>起動しない / 動作が遅い / ウイルス / データ救出</li>
+                </ul>
+
+            <a class="cta" href="#contact">お問い合わせはこちら</a>
+
+        </div>
+
+    </section>
+
+
+    <section id="service" class="service">
+
+        <h2>サービスについて</h2>
+
+            <p>
+            PC修理の専門スタッフがいわき市のお客様のご自宅まで出張修理いたします。<br>
+            ハードウェア修理はもちろん、ソフトウェアのトラブルにも対応します。
+            </p>
+
+        <div class="service-grid">
+
+            <div class="box" data-type="boot">PCが起動しない</div>
+            <div class="box" data-type="virus">ウイルス感染</div>            <div class="box" data-type="slow">動作が遅い</div>
+            <div class="box" data-type="data">データ復旧</div>
+
+        </div>
+
+    </section>
+
+
+    <section id="price" class="price">
+
+        <h2>料金表</h2>
+
+            <table>
+
+                <tr>
+                    <th>作業内容</th>
+                    <th>料金</th>
+                    <th>当社製PCご利用者様</th>
+                </tr>
+
+                <tr>
+                    <td>出張費</td>
+                    <td>3000円〜</td>
+                    <td>一律500円！</td>
+                </tr>
+
+                <tr>
+                    <td>診断</td>
+                    <td>500円</td>
+                    <td>無料</td>
+                </tr>
+
+                <tr>
+                    <td>ウイルス除去</td>
+                    <td>8000円〜</td>
+                    <td>5000円～</td>
+                </tr>
+
+                <tr>
+                    <td>起動しないトラブル</td>
+                    <td>5000円〜</td>
+                    <td>5000円～</td>
+                </tr>
+
+                <tr>
+                    <td>動作改善</td>
+                    <td>4000円〜</td>
+                    <td>4000円～</td>
+                </tr>
+
+            </table>
+
+        <h5>
+            ※こちらの料金表に別途部材代が加算される可能性があります。
+            <br>※いわき市内の出張に関しましても、遠方になりますと料金が加算されてしまうことがあります。
+            <br>※料金表変更前での予約であれば価格は維持されますが、価格は変動する可能性がございます。
+        </h5>
+        
+    </section>
+
+    <section id="product" class="product">
+        <h2>製品</h2>
+
+        <div class="product-content">
+
+            <div class="product-text">
+                <p>
+                    当社では、完全オリジナルでのPC作成依頼の受付を行っております。
+                    <br>空冷PCから本格水冷PCまで、お客様の要望に合ったPCを製作しております。
+                    <br>「このパーツを使いたい！」などの、パーツ構成に関しての要望も柔軟に対応します。
+                    <br>また、デスクトップ環境の構築もしていますので、PCの取り付けやデスクトップ環境の組み立てに自信がない方でも
+                    <br>安心してお任せください。
+                </p>
+
+                <a href="https://forms.gle/2ukaFMw329yNKCcGA" target="_blank" class="cta">
+                    製作依頼はこちら
+                </a>
+            </div>
+
+            <div class="product-image">
+                <img src="14982_color.png" alt="オリジナルPC">
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="area-contact">
+
+        <div id="area" class="area">
+
+        <h2>対応地域</h2>
+
+            <ul>
+                <li>いわき市内</li>
+            </ul>
+
+        </div>
+
+
+        <div id="contact" class="contact">
+
+            <h2>お問い合わせ</h2>
+
+            <p>電話：080-9356-8673</p>
+            <button onclick="callPhone()">電話する</button>
+            <p>メール：nookpcworks@gmail.com</p>
+            <button onclick="sendMail()">メールを送る</button>
+            <p>Google Form</p>
+            <a href="https://forms.gle/2Fe3fC5imXGkZxn79" target="_blank" class="cta">
+                    Formはこちら！
+            </a>
+            
+
+        </div>
+
+    </section>
+
+
+<footer>
+
+<p>© Nook PC Works</p>
+
+</footer>
+
+        <div id="popup" class="popup">
+
+            <div class="popup-content">
+
+                <span class="close">&times;</span>
+
+                <h2 id="popup-title"></h2>
+
+                <img id="popup-image" src="" alt="事例">
+
+                <p id="popup-text"></p>
+
+            </div>
+
+        </div>
+
+            <script src="script.js"></script>
+    </body>
+</html>
